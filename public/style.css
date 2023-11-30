@@ -1,0 +1,60 @@
+.lock{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    
+}
+.userInput{
+    border-style:dotted;
+    border-radius: 15%;
+    height: 50px;
+    
+}
+.unlock{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+}
+ body{
+    background-color: #424239;
+background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+/* background-image: url("photo/paper.jpg"); */
+}
+.secret{
+    /* background-color: #1a1a1a; */
+    /* background-color: antiquewhite;
+    background-image: url("https://www.transparenttextures.com/patterns/notebook-dark.png");
+    background-image: url("https://www.transparenttextures.com/patterns/notebook.png"); */
+    background-image:url("photo/secrets.jpg");
+    margin-top: 5%;
+    border-radius: 20%;
+    border-style:inherit;
+   
+}
+textarea{
+    background-color: #1a1a1a;
+    background-image: url("https://www.transparenttextures.com/patterns/notebook.png");
+}
+.speech-bubble {
+	position: relative;
+	background: #919191;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 36px solid transparent;
+	border-right-color: #919191;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -18px;
+	margin-left: -36px;
+}
